@@ -51,17 +51,10 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env        # add your API key (never commit .env)
 python main.py
+streamlit run app.py
 ```
-Any LiteLLM model works via `LEO_MODEL` (e.g. `gemini/gemini-2.0-flash`).
+Any LiteLLM model works via `LEO_MODEL` (e.g. `LEO_MODEL=gemini/gemini-3.1-flash-lite`).
 
-## Graceful failure handling
-Vague request → Coordinator asks (max 2×). Agent error/stall/invalid JSON → retry with back-off, then a safe
-message. Corrupt memory file → starts fresh.
 
-## Demo video script (3–5 min)
-1. (0:00) Show repo + README diagram, 20 s.
-2. Run `python main.py`, name "Asha", type "help me study" → Coordinator asks a clarification.
-3. Answer "photosynthesis" → show Coordinator plan, Explainer lesson, handoff to Quiz Master.
-4. Answer questions — get 1–2 wrong on purpose. Show Evaluator feedback.
-5. Say `y` to re-teach → show Explainer's new explanation + second quiz (feedback loop).
-6. Show summary, then `data/memory/asha.json`. Restart to show memory ("Returning student").
+
+
