@@ -4,10 +4,10 @@ Leo is a study assistant built with **CrewAI**. Four agents with separate roles,
 collaborate to plan, teach, quiz and grade a student, with real handoffs between them.
 
 Leo brings together four specialized AI agents that collaborate to create an interactive and personalized learning experience.
-🎯 Coordinator Agent: Understands learning goals, plans the learning workflow, and coordinates tasks among the agents.
-📚 Explainer Agent: Teaches concepts through simple explanations, practical examples, and relatable analogies.
-📝 Quiz Master Agent: Generates topic-based quizzes to test students' understanding of learned concepts.
-🧠 Evaluator Agent: Evaluates student answers, provides scores and constructive feedback, and identifies weak concepts for further improvement.
+- 🎯 Coordinator Agent: Understands learning goals, plans the learning workflow, and coordinates tasks among the agents.
+- 📚 Explainer Agent: Teaches concepts through simple explanations, practical examples, and relatable analogies.
+- 📝 Quiz Master Agent: Generates topic-based quizzes to test students' understanding of learned concepts.
+- 🧠 Evaluator Agent: Evaluates student answers, provides scores and constructive feedback, and identifies weak concepts for further improvement.
 
 Together, these agents create an adaptive learning cycle that helps students learn, practice, evaluate their understanding, and improve.
 ## Agents
