@@ -53,7 +53,7 @@ cp .env.example .env        # add your API key (never commit .env)
 python main.py
 streamlit run app.py
 ```
-Any LiteLLM model works via `LEO_MODEL` (e.g. `LEO_MODEL=gemini/gemini-3.1-flash-lite`).
+** Any Lite LLM model works via `LEO_MODEL` (e.g. `LEO_MODEL=gemini/gemini-3.1-flash-lite`).
 
 
 
